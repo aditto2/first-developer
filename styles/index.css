@@ -131,7 +131,7 @@ nav h1 {
 }
 
 .inspiration-content {
-    margin: 0 auto ;
+    margin: 0 auto;
     width: 800px;
 }
 
@@ -141,4 +141,48 @@ nav h1 {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding: 23px;
+}
+
+/* targets section style */
+
+.targets {
+    margin: 0 150px 60px;
+}
+
+.target-content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.skills{
+    display: flex;
+    gap: 24px;
+}
+
+.skill1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.skill2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.skill3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.skill1,
+.skill2,
+.skill3 {
+    width: 335px;
+    padding: 40px;
+}
+
+.skills a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
 }
