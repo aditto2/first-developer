@@ -6,6 +6,7 @@
     font-optical-sizing: auto;
     /* font-weight: <weight>; */
     font-style: normal;
+    margin: 0;
 }
 
 .text-center {
@@ -243,3 +244,27 @@ nav h1 {
     background-color: rgb(13, 19, 33);
     cursor: pointer;
 }
+
+/* footer styles */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 150px 34px; */
+    padding: 50px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-list{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.footer-list li{
+    list-style: none;
+}
+
+
+
